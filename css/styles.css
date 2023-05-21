@@ -137,13 +137,17 @@ color: var(--hover-color);
 
 .hero{
 background-color: var(--second-background-color);
-padding-top: 173px;
-padding-bottom: 188px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 188px 0;
 }
 
 .hero-title{
-    max-width: 496px;
-    height: 120px;
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -151,11 +155,12 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     color: var(--first-title-color);
     margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 503px;
 }
 
 .hero-button{
-    min-width: 169px;
-    height: 56px;
+    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -167,6 +172,9 @@ padding-bottom: 188px;
     cursor: pointer;
     border-radius: 4px;
     margin: 0 auto;
+    display: block;
+    max-width: 171px;
+    height: 56px;
 }
 
 .hero-button:hover,
@@ -175,14 +183,15 @@ padding-bottom: 188px;
 }
 
 /* Section 1 */
+
 .features {
-    padding-top: 120px;
+    padding-top: 135px;
     padding-bottom: 120px;
 }
 
 .features-list {
-display: flex;
-gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .features-item-title {
@@ -191,6 +200,7 @@ gap: 24px;
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -206,11 +216,6 @@ gap: 24px;
     padding-bottom: 120px;
 }
 
-.project-list {
-    display: flex;
-    gap: 24px;
-}
-
 .project-title {
     font-weight: 700;
     font-size: 36px;
@@ -219,6 +224,16 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;   
     color: var(--second-title-color);
+}
+
+.project-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.project-item {
+    width: calc((100% - 48px) / 3);
 }
 
 /* Section 3 */
@@ -237,6 +252,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-title-color);
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -246,6 +262,7 @@ gap: 24px;
 
 .team-item {
     background-color: var(--team-item-background-color);
+    width: calc((100% - 72px) / 4);
 }
 
 .teammate {
@@ -276,6 +293,8 @@ gap: 24px;
     line-height: 1.50;
     letter-spacing: 0.02em;   
     color: var(--footer-text-color);
+    margin-top: 16px;
+    max-width: 264px;
 }
 
 .footer-logo {
@@ -310,6 +329,8 @@ gap: 24px;
 .about-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .about-item {
@@ -339,6 +360,9 @@ gap: 24px;
     gap: 24px;
 }
 
+.product-item {
+    width: calc((100% - 48px) / 3);
+}
 .product-title {
     font-weight: 500;
     font-size: 20px;
