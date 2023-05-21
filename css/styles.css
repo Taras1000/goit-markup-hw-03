@@ -29,6 +29,15 @@ body{
     background-color: var(--background-color);    
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
 .list{
     list-style: none;
 }
@@ -37,11 +46,33 @@ body{
     text-decoration: none;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 /* Header */
 
 .header {
+padding: 24px 156px;
+}
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-logo{
@@ -53,6 +84,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
+    margin-right: 76px;
 }
 
 .style-logo{
@@ -81,6 +113,12 @@ body{
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;   
 }
 
 .address-link{
@@ -99,18 +137,25 @@ color: var(--hover-color);
 
 .hero{
 background-color: var(--second-background-color);
+padding-top: 173px;
+padding-bottom: 188px;
 }
 
 .hero-title{
+    max-width: 496px;
+    height: 120px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--first-title-color);
+    margin: 0 auto;
 }
 
 .hero-button{
+    min-width: 169px;
+    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -120,6 +165,8 @@ background-color: var(--second-background-color);
     color: var(--hero-button-color);
     background-color: var(--hero-btn-background-color);
     cursor: pointer;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -128,6 +175,15 @@ background-color: var(--second-background-color);
 }
 
 /* Section 1 */
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-list {
+display: flex;
+gap: 24px;
+}
 
 .features-item-title {
     font-weight: 500;
@@ -146,6 +202,15 @@ background-color: var(--second-background-color);
 
 /* Section 2 */
 
+.project {
+    padding-bottom: 120px;
+}
+
+.project-list {
+    display: flex;
+    gap: 24px;
+}
+
 .project-title {
     font-weight: 700;
     font-size: 36px;
@@ -160,6 +225,8 @@ background-color: var(--second-background-color);
 
 .team {
     background-color: var(--first-background-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -170,6 +237,11 @@ background-color: var(--second-background-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-title-color);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-item {
@@ -195,6 +267,8 @@ background-color: var(--second-background-color);
 
 .footer {
     background: var(--second-background-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
@@ -228,6 +302,16 @@ background-color: var(--second-background-color);
 
 /* Portfolio */
 
+.about {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.about-list {
+    display: flex;
+    gap: 24px;
+}
+
 .about-item {
     background: var(--background-color);
 }
@@ -248,6 +332,11 @@ background-color: var(--second-background-color);
 .about-button:focus {
     color: var(--about-button-hover-color);
     background-color: var(--hover-background-color);
+}
+
+.products-list {
+    display: flex;
+    gap: 24px;
 }
 
 .product-title {
