@@ -327,6 +327,8 @@ background-color: var(--second-background-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footer-logo-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-style {
