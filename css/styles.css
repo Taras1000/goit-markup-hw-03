@@ -51,7 +51,9 @@ body {
     margin: 0 auto;
 }
 
-
+img {
+    display: block;
+}
 
 
 /* Header */
