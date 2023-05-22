@@ -374,7 +374,7 @@ background-color: var(--second-background-color);
 /* Portfolio */
 
 .about {
-    padding-top: 120px;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 
@@ -409,6 +409,9 @@ background-color: var(--second-background-color);
     color: var(--about-button-color);
     background-color: var(--about-button-background-color);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid;
+    border-radius: 4px
 }
 
 .about-button:hover,
