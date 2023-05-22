@@ -145,14 +145,15 @@ color: var(--hover-color);
 
 .hero{
 background-color: var(--second-background-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+
 
 .hero-container {
     
     align-items: center;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .hero-title{
@@ -182,7 +183,7 @@ background-color: var(--second-background-color);
     border-radius: 4px;
     margin: 0 auto;
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
 }
@@ -242,6 +243,7 @@ background-color: var(--second-background-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;   
     color: var(--second-title-color);
+    margin-bottom: 72px;
 }
 
 .project-list {
