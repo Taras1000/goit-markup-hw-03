@@ -222,7 +222,7 @@ background-color: var(--second-background-color);
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
@@ -265,7 +265,7 @@ background-color: var(--second-background-color);
 }
 
 .project-item {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 /* Section 3 */
@@ -296,7 +296,7 @@ background-color: var(--second-background-color);
     background-color: var(--team-item-background-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-item-img {
