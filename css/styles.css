@@ -148,7 +148,7 @@ background-color: var(--second-background-color);
 }
 
 .hero-container {
-    display: flex;
+    
     align-items: center;
     flex-direction: column;
     padding-top: 188px;
@@ -195,13 +195,21 @@ background-color: var(--second-background-color);
 /* Section 1 */
 
 .features {
-    padding-top: 135px;
+    padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.features-title {
+    v
 }
 
 .features-list {
     display: flex;
     gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
