@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 :root {
     --color: #434455;
     --background-color: #FFFFFF;
@@ -21,21 +27,13 @@
     --about-button-color: #4D5AE5;
     --about-button-background-color: #F4F4FD;
     --about-button-hover-color: #FFFFFF;
+    --border: #e7e9fc;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color);
     background-color: var(--background-color);    
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-ul, ol {
-    margin: 0;
-    padding: 0;
 }
 
 .list{
@@ -56,7 +54,6 @@ ul, ol {
 img {
     display: block;
 }
-
 
 
 /* Header */
@@ -395,8 +392,10 @@ background-color: var(--second-background-color);
     gap: 48px 24px;
 }
 
-.product-item {
-    width: calc((100% - 48px) / 3);
+.portfolio-card {
+    padding: 32px 16px;
+    border: 1px solid var(--border);
+    border-top: none;
 }
 
 .about-button {
@@ -410,7 +409,7 @@ background-color: var(--second-background-color);
     background-color: var(--about-button-background-color);
     cursor: pointer;
     padding: 12px 24px;
-    border: 1px solid;
+    border: 1px solid var(--border);
     border-radius: 4px
 }
 
@@ -418,6 +417,7 @@ background-color: var(--second-background-color);
 .about-button:focus {
     color: var(--about-button-hover-color);
     background-color: var(--hover-background-color);
+    border: 1px solid transparent;
 }
 
 .products-list {
@@ -428,6 +428,13 @@ background-color: var(--second-background-color);
 .product-item {
     width: calc((100% - 48px) / 3);
 }
+
+.portfolio-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .product-title {
     font-weight: 500;
     font-size: 20px;
