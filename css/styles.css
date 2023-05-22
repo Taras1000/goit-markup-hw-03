@@ -79,8 +79,7 @@ border-bottom: 1px solid #E7E9FC;
     gap: 40px;
 }
 .nav-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .header-logo{
@@ -112,6 +111,8 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--link-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover,
