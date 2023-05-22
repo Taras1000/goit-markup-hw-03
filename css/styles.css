@@ -422,13 +422,14 @@ background-color: var(--second-background-color);
 }
 
 .product-item {
-    width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-image {
     display: block;
     max-width: 100%;
     height: auto;
+    width: calc((100% - 48px) / 3);
 }
 
 .product-title {
