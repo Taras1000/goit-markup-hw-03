@@ -78,6 +78,10 @@ border-bottom: 1px solid #E7E9FC;
     align-items: center;
     gap: 40px;
 }
+.nav-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo{
     font-family: 'Raleway', sans-serif;
@@ -147,7 +151,8 @@ background-color: var(--second-background-color);
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title{
@@ -160,7 +165,7 @@ background-color: var(--second-background-color);
     color: var(--first-title-color);
     margin: 0 auto;
     margin-bottom: 48px;
-    max-width: 503px;
+    max-width: 496px;
 }
 
 .hero-button{
@@ -177,8 +182,9 @@ background-color: var(--second-background-color);
     border-radius: 4px;
     margin: 0 auto;
     display: block;
-    max-width: 171px;
+    max-width: 169px;
     height: 56px;
+    border: none;
 }
 
 .hero-button:hover,
