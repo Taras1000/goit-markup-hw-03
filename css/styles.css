@@ -389,7 +389,8 @@ background-color: var(--second-background-color);
 .products-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-card {
@@ -418,11 +419,6 @@ background-color: var(--second-background-color);
     color: var(--about-button-hover-color);
     background-color: var(--hover-background-color);
     border: 1px solid transparent;
-}
-
-.products-list {
-    display: flex;
-    gap: 24px;
 }
 
 .product-item {
