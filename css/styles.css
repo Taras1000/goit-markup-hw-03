@@ -60,7 +60,7 @@ img {
 
 .header {
 padding: 24px 156px;
-border-bottom: 1px solid #E7E9FC;
+border-bottom: 1px solid var(--border);
 }
 
 .header-container {
@@ -441,6 +441,7 @@ background-color: var(--second-background-color);
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    margin-bottom: 8px;
 }
 
 .product-text {
