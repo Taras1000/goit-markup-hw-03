@@ -44,6 +44,11 @@ body {
     text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6,p,ul {
+margin: 0;
+padding: 0;
+
+}
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -164,8 +169,10 @@ background-color: var(--second-background-color);
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--first-title-color);
-    margin: 0 auto 50px;
-    display: block;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
     max-width: 496px;
     text-align: center;
 }
@@ -222,7 +229,7 @@ background-color: var(--second-background-color);
 }
 
 .features-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
@@ -340,7 +347,6 @@ background-color: var(--second-background-color);
     line-height: 1.50;
     letter-spacing: 0.02em;   
     color: var(--footer-text-color);
-    margin-top: 16px;
     max-width: 264px;
 }
 
